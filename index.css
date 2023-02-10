@@ -1,0 +1,176 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Rowdies', cursive;
+	box-sizing: border-box;
+
+}
+
+#mainpage {
+	height: 100vh;
+	width: 100%;
+	background-image: url(./image/lancer.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+/*Homepage*/
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+
+.porfolio {
+	color: black;
+	font-size: 35px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+span {
+	color: rgb(255, 165, 0);
+}
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 25px;
+
+}
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize; 
+}
+nav ul li a:hover {
+	color: darkgray;
+	transition: 1s;
+}
+
+
+.button {
+	background-color: rgb(255, 165, 0) ;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 10px;
+	transition: transform .5s;
+}
+.button:hover {
+	transform: scale(1.2);
+}
+.opening {
+	position: absolute;
+	top: 50%;
+	left: 8%;
+	transform: translateY(-50%);
+}
+
+
+/*Homepage*/
+
+/*About me*/
+
+#about_me {
+	background: rgb(2,2,11);
+	background: linear-gradient(0deg, rgba(2,2,11,1) 0%, rgba(255,255,255,1) 92%);
+}
+
+/*About me*/
+
+/* Photo Gallery */
+#profile {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	padding-top: 50px;
+}
+.profile-col{
+	flex-basis: 32%;
+	border-radius: 10px;
+	margin-bottom: 30px;
+	position: relative;
+	overflow: hidden;
+}
+#profile-col img {
+	width: 100%;
+	margin: 10px;
+}
+.layer {
+	background: transparent;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	transition: 0.5s;
+}
+.layer:hover{
+	background: rgb(255, 165, 0);
+	opacity: .4;
+}
+.layer h3{
+	width: 100%;
+	font-weight: 500;
+	color: #fff;
+	font-size: 26px;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	position: absolute;
+}
+
+#profile {
+	background-color: black;
+}
+
+/*Contact us*/
+
+#contact_us {
+	background: rgb(207,201,25);
+	background: linear-gradient(0deg, rgba(207,201,25,1) 25%, rgba(0,0,0,1) 74%);
+}
+
+/*Contact us*/
+
+
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+}
+
+.fa:hover {
+	opacity: 0.7;
+}
+
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+}
+
+.fa-twitter {
+	background: #55ACEE;
+	color: white;
+}
+
+.fa-youtube {
+	background: #bb0000;
+	color: white;
+}
+
+.fa-instagram {
+	background: #125688;
+	color: white;
+}
+
