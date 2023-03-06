@@ -6,25 +6,23 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1. shrink-to-fit=no">
 
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+	<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"> -->
 
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Open+Sans&family=Roboto:wght@400;700&family=Rowdies&display=swap" rel="stylesheet">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 	<link rel="stylesheet" type="text/css" href="./index.css">
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://kit.fontawesome.com/eab668230a.js" crossorigin="anonymous"></script>
 
-	<title>Online Porfolio</title>
+	<title>Doroteo's Profile</title>
 </head>
 <body>
 
 	<!-- Start of Homepage & Navigation bar start-->
 
 
-	<div id="mainpage">
-		<nav class="navbar navbar-expand-lg navbar-dark text-justify text-right fixed-top p-1">
+<!-- 	<div id="mainpage">
+		<nav class="navbar navbar-expand-lg text-justify text-right fixed-top p-1">
 			<h2 class="porfolio">Online <span>Portfolio</span></h2>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -32,7 +30,7 @@
 
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active">
+					<li class="nav-item">
 						<a class="nav-link" href="#mainpage">Home <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
@@ -42,150 +40,189 @@
 						<a class="nav-link" href="#profile">Projects</a>
 					</li>
 					<li class="nav-item mt-2">
-						<a href="#contact_us" class="button">Contact Me</a>
+						<a class="nav-link" href="#contact_us">Contact Me</a>
 					</li>
 
 				</ul>
 			</div>
 			
-		</nav>
+		</nav> -->
 
-		<div class="opening">
+<!-- 		<div class="opening">
 			<h4>Hello Client, my name is</h4>
-			<h1>ROLAND JOHN A. <span>DOROTEO</span></h1>
+			<h1>RJ <span>DOROTEO</span></h1>
 			<h3>I am a Front-end Developer</h3>
+			<div class="social-media">
+				<a href="#"><box-icon name='facebook' type='logo' ></box-icon></a>
+				<a href="#"><box-icon name='linkedin' type='logo' ></box-icon></a>
+				<a href="#"><box-icon name='instagram' type='logo' ></box-icon></a>
+			</div>
+			<a href="#" class='btn'>DONWLOAD CV</a>
+		</div>
+		<div class="home-img">
+			<img src="./image/nueva.png">
+		</div>
+
+	</div> -->
+
+	<header class="header">
+		<a href="#" class="logo">Porfolio.</a>
+		<nav class="navbar">
+			<a href="#home" style="--i:1" class="active">Home</a>
+			<a href="#about" style="--i:2">About Me</a>
+			<a href="#services" style="--i:3">Services</a>
+			<a href="#" style="--i:3">Certificates</a>
+			<a href="#" style="--i:4">Hire Me</a>
+		</nav>
+	</header>
+
+	<section class="home" id="home">
+		<div class="home-content">
+			<h3>Hello, It's me</h3>
+			<h1>RJ Doroteo</h1>
+			<h3>And I'm a <span class="multiple-text"></span></h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua.</p>
+			<div class="social-media">
+				<a href="#" style="--i:7"><i class='bx bxl-facebook'></i></a>
+				<a href="#" style="--i:8"><i class='bx bxl-linkedin' ></i></a>
+				<a href="#" style="--i:9"><i class='bx bxl-instagram-alt' ></i></a>
+			</div>
+			<a href="image/cv_2023.pdf" download class='btn btn2'>DONWLOAD CV</a>
+		</div>
+		<div class="home-img">
+			<img src="./image/nueva.png">
 		</div>
 	</div>
+</section>
 
-	<!-- Start of Homepage & Navigation bar end -->
+<!-- ABOUT ME SECTION -->
 
-
-
-	<!-- About me section start -->
-
-	<div id="about_me" class="row p-4 bg-light text-secondary min-vh-100">
-		<div class="col-sm-12 col-md-6 order-1 order-md-1">
-			<h3 class="pt-3">About Me</h3>
-			<p>I am a Front-end Web Developer. I took an intensive boothcamp training at Zuitt that honed my hard skills that applies on web designing using HTML, CSS & Bootstrap with great awareness to learn by myself in addition to master the front-end web design.</p>
-			<p>I have a bachelors degree in Information Technology. However, I was overwhelmed back then and I don't know what my niche is. So, I lost track and work in a BPO industry for 4 years.</p>
-			<p>My mom offered me to enrolled with Zuitt Bootcamp training. I decided to resigned to my previous company and focus on studying web development again.</p>
-		</div>
-		<div class="col-sm-12 col-md-6">
-			<img class="img-fluid" src="./image/baguio.jpg"/>
-		</div>
-	</div>
-	
-	<!-- About me section end -->
-
-	<!-- Gallery Start-->
-
-	<div id="profile" class="text-white form-inline p-3 d-flex justify-content-center">
-		<h1 class="text-center mt-5">Sample Session Projects</h1>
-	</section>
-
-	<div class="text-light form-inline p-3 d-flex justify-content-center min-vh-100">
-		<div id="profile-col" class="col-sm-12 col-md-4">
-			<img class ="img-fluid" src="./image/project1.png" />
-			<div class="layer"><h3 class="text-center">Session 9</h3> </div>
-		</div>
-		<div id="profile-col" class="col-sm-12 col-md-4">
-			<img class ="img-fluid" src="./image/project2.png" />
-			<div class="layer"><h3 class="text-center">Session 10</h3> </div>
-		</div>
-		<div id="profile-col" class="col-sm-12 col-md-4">
-			<img class ="img-fluid" src="./image/project3.png" />
-			<div class="layer">
-				<h3 class="text-center">Session 11</h3>      
+<div id="about">
+	<div class="container">
+		<div class="row">
+			<div class="about-col-1">
+				<img class ="img-fluid" src="./image/nueva.png">
 			</div>
-		</div>
-	</div>
-</div>
+			<div class="about-col-2">
+				<h1 class="sub-title">About Me</h1>
+				<p>I am an aspiring Front-end Web Developer who underwent intensive bootcamp training at Zuitt to enhance my hard skills in web design, specifically in HTML, CSS, and Bootstrap. I also possess a strong drive to continue learning and mastering the art of front-end web design on my own.<br><br>Despite earning a degree in Information Technology, I felt overwhelmed and unsure of my niche, causing me to lose track and work in the BPO industry for four years.<br><br>However, I have taken the risk of resigning from my previous job at PayPal to pursue my dream of becoming a Frontend Developer.</p><br>
 
-
-<!-- Gallery End -->
-
-
-
-<!-- Contact Form Start -->
-
-<div id="contact_us" class="container-fluid mx-auto bg-light text-center text-justify text-light min-vh-100">
-
-	<h2 class="text-dark text-center p-4">Contact Me</h2>
-	<form class="bg-dark col-md-6 offset-md-3 col-sm-12 col-lg-4 col-xl-4 offset-lg-4 p-2">
-
-		<div class="form-group">
-			<div class="col">
-				<label class="p-2" for="Input1">Full Name</label>
-				<input type="text" class="form-control" placeholder="Full Name">
-			</div>
-
-			<div class="col">
-				<label class="p-2" for="Input2">Email address</label>
-				<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-			</div> 
-
-			<div class="col">
-				<label class="p-2" for="Input3">Contact Number</label>
-				<input type="InputNumber" class="form-control" placeholder="+63 900 000 0000">
-			</div>
-
-			<div class="col">
-				<label class="p-2" for="exampleFormControlTextarea1">Concern</label>
-				<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-			</div>
-
-
-			<button type="button" class="btn btn-warning mt-2 p-3" data-toggle="modal" data-target="#exampleModal">
-				Submit Email
-			</button>
-
-			<!-- Modal -->
-			<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-				<div class="modal-dialog">
-					<div class="modal-content">
-						<div class="modal-header">
-							<h5 class="modal-title text-dark" id="exampleModalLabel">Thank you for Contacting us!</h5>
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-								<span aria-hidden="true">&times;</span>
-							</button>
-						</div>
-						<div class="modal-body text-dark">
-						Message Successfully Sent!										</div>
-						<div class="modal-footer">
-							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-						</div>
-					</div>
+				<div class="tab-titles">
+					<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+					<p class="tab-links" onclick="opentab('education')">Education</p>
+					<p class="tab-links" onclick="opentab('experience')">Experince</p>
+				</div>
+				<div class="tab-contents active-tab" id="skills">
+					<ul>
+						<li><span>HTML</span><br>Create structure of the website</li>
+						<li><span>CSS</span><br>Adding design to the website</li>
+						<li><span>Bootstrap</span><br>Adding template design to make the design much easier</li>
+					</ul>
+				</div>
+				<div class="tab-contents" id="education">
+					<ul>
+						<li><span>Zuitt Coding Bootcamp</span><br>January - February 2023</li>
+						<li><span>University of Perpetual Help System Dalta</span><br> June 2011 - April 2017</li>
+					</ul>
+				</div>
+				<div class="tab-contents" id="experience">
+					<ul>
+						<li><span>Hinduja Global Solutions</span><br>Customer service for healthcare billing and benefits</li>
+						<li><span>Concentrix</span><br>A telecommunication business account in Australia</li>
+						<li><span>Paypal</span><br>Banking services</li>
+					</ul>
 				</div>
 			</div>
 
 		</div>
-
 	</div>
-</form>
-
 </div>
 
-<!-- Contact Form End -->
+<!-- Services -->
 
-<!-- Footer -->
-<div class="text-center bg-warning text-dark p-3"><p>You can reach out to my Social Media and check my updated post about my projects.</p>
-	<a href="https://www.facebook.com/" class="fa fa-facebook"></a>
-	<a href="https://www.twitter.com" class="fa fa-twitter"></a>
-	<a href="https://www.youtube.com" class="fa fa-youtube"></a>
-	<a href="https://www.instagram.com" class="fa fa-instagram"></a>
+<div id="services">
+	<div class="container">
+		<h1 class="sub-title">My Services</h1>
+		<div class="services-list">
+			<div>
+				<i class="fa-brands fa-html5"></i>
+				<h2>HTML5</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<a href="#">Learn more</a>
+			</div>
+			<div>
+				<i class="fa-brands fa-css3-alt"></i>
+				<h2>CSS3</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<a href="#">Learn more</a>
+			</div>
+			<div>
+				<i class="fa-brands fa-bootstrap"></i>
+				<h2>Bootstrap4</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<a href="#">Learn more</a>
+			</div>
+			<div>
+				<i class="fa-brands fa-square-js"></i>
+				<h2>JavaScript</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<a href="#">Learn more</a>
+			</div>
+			<div>
+				<i class="fa-brands fa-react"></i>
+				<h2>React JS</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<a href="#">Learn more</a>
+			</div>
+			<div>
+				<i class="fa-light fa-browser"></i>
+				<h2>MERN Tech Stack</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<a href="#">Learn more</a>
+			</div>
+		</div>
+	</div>
 </div>
-<!-- End of Footer -->
+
+<!-- Contact Form -->
+
+<div id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="contact-left">
+				<h1 class="sub-title">Contact Me</h1>
+				<p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+				<p><i class="fa-solid fa-phone"></i>0123456789</p>
+
+				<div class="social-media">
+				<a href="#"><i class='bx bxl-facebook'></i></a>
+				<a href="#"><i class='bx bxl-linkedin' ></i></a>
+				<a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+			</div>
+			<a href="image/cv_2023.pdf" download class="btn">Download CV</a>
+			</div>
+			<div class="contact-right">
+				<form>
+					<input type="text" name="Name" placeholder="Your name" required>
+					<input type="email" name="Email" placeholder="Your email" required>
+					<textarea name="Message" rows="6" placeholder="Your message"></textarea>
+					<button type="submit" class="btn">Submit</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
 
 
 
 
 
 
+<!-- Animation Typing text -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
-<!-- Bootstrap script -->
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-
+<script src="script.js"></script>
 
 </body>
 </html>
