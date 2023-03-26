@@ -20,12 +20,12 @@
 
 
 	<header class="header">
-		<a href="#" class="logo">Porfolio.</a>
+		<a href="#" class="logo">Portfolio.</a>
 		<nav class="navbar">
 			<a href="#home" style="--i:1" class="active">Home</a>
 			<a href="#about" style="--i:2">About Me</a>
 			<a href="#services" style="--i:3">Services</a>
-			<a href="#" style="--i:3">Certificates</a>
+			<a href="#certificate" style="--i:3">Certificates</a>
 			<a href="#contact" style="--i:4">Hire Me</a>
 <!-- 			<div class="dropdown">
 				<i class="fa-solid fa-bars"></i>
@@ -45,8 +45,8 @@
 				<h3>And I'm a <span class="multiple-text"></span></h3>
 				<p>I am an inspiring web developer that took intensive training with Zuitt.</p>
 				<div class="social-media">
-					<a href="#" style="--i:7"><i class='bx bxl-facebook'></i></a>
-					<a href="#" style="--i:8"><i class='bx bxl-linkedin' ></i></a>
+					<a href="https://www.facebook.com/roland.doroteo.95/" style="--i:7"><i class='bx bxl-facebook'></i></a>
+					<a href="https://www.linkedin.com/in/roland-john-doroteo/" style="--i:8"><i class='bx bxl-linkedin' ></i></a>
 					<a href="#" style="--i:9"><i class='bx bxl-instagram-alt' ></i></a>
 				</div>
 				<a href="image/cv_2023.pdf" download class='btn btn2'>DONWLOAD CV</a>
@@ -146,6 +146,53 @@
 		</div>
 	</div>
 
+	<!-- CERTIFICATES -->
+
+<div class="portfolio" id="certificate">
+	<h2 class="heading">Latest <span>Project</span></h2>
+	<div class="portfolio-container">
+		<div class="portfolio-box">
+			<img src="image/fe.jpeg" alt="">
+			<div class="portfolio-layer">
+				<h4>Front End Certificate</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				</p>
+				<a href="#"><i class='bx bx-link-external'></i></a>
+			</div>
+		</div>
+
+		<div class="portfolio-box">
+			<img src="image/be.jpeg" alt="">
+			<div class="portfolio-layer">
+				<h4>Back End Certificate</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				</p>
+				<a href="#"><i class='bx bx-link-external'></i></a>
+			</div>
+		</div>
+
+		<div class="portfolio-box">
+			<img src="image/fs.jpeg" alt="">
+			<div class="portfolio-layer">
+				<h4>FullStack Certificate</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				</p>
+				<a href="#"><i class='bx bx-link-external'></i></a>
+			</div>
+		</div>
+
+		<div class="portfolio-box">
+			<img src="image/cc.jpeg" alt="">
+			<div class="portfolio-layer">
+				<h4>Completion Certificate</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				</p>
+				<a href="#"><i class='bx bx-link-external'></i></a>
+			</div>
+		</div>
+	</div>
+</div>
+
 	<!-- Contact Form -->
 
 	<div id="contact">
@@ -153,22 +200,22 @@
 			<div class="row">
 				<div class="contact-left">
 					<h1 class="sub-title">Contact Me</h1>
-					<p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
-					<p><i class="fa-solid fa-phone"></i>0123456789</p>
+					<p><i class="fa-solid fa-paper-plane"></i>rolanddoroteo@gmail.com</p>
+					<p><i class="fa-solid fa-phone"></i>09167944124</p>
 
 					<div class="social-media">
-						<a href="#"><i class='bx bxl-facebook'></i></a>
-						<a href="#"><i class='bx bxl-linkedin' ></i></a>
+						<a href="https://www.facebook.com/roland.doroteo.95/"><i class='bx bxl-facebook'></i></a>
+						<a href="https://www.linkedin.com/in/roland-john-doroteo/"><i class='bx bxl-linkedin' ></i></a>
 						<a href="#"><i class='bx bxl-instagram-alt' ></i></a>
 					</div>
 					<a href="image/cv_2023.pdf" download class="btn">Download CV</a>
 				</div>
 				<div class="contact-right">
-					<form>
+					<form onsubmit="sendEmail(); reset(); return false;">
 						<input type="text" name="Name" placeholder="Your name" required>
 						<input type="email" name="Email" placeholder="Your email" required>
 						<textarea name="Message" rows="6" placeholder="Your message"></textarea>
-						<button type="submit" class="btn">Submit</button>
+						<button type="submit" class="btn">Send message</button>
 					</form>
 				</div>
 			</div>
@@ -179,10 +226,16 @@
 
 
 
+
+
+
 <!-- Animation Typing text -->
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
 <script src="script.js"></script>
+
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+
 
 </body>
 </html>

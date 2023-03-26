@@ -24,4 +24,18 @@ var typed = new Typed(".multiple-text", {
 		document.getElementById(tabname).classList.add("active-tab")
 	}
 
+/* CONTACT FORM */
 
+function sendEmail(){
+	Email.send({
+    Host : "smtp.gmail.com",
+    Username : "rolanddoroteo@gmail.com",
+    Password : "Arjhady18",
+    To : 'rjdoroteo24@gmail.com',
+    From : document.getElementById("email").value,
+    Subject : "New Contact Form Enquiry",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+}
